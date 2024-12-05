@@ -232,37 +232,5 @@ body text  {
 
 
 
-  .custom-button {
-    background-color: #4CAF50; /* Green background */
-    color: white;            /* White text */
-    border: none;            /* No border */
-    padding: 10px 20px;      /* Padding for size */
-    text-align: center;      /* Center text */
-    text-decoration: none;   /* No underline */
-    display: inline-block;   /* Inline element */
-    font-size: 16px;         /* Font size */
-    border-radius: 5px;      /* Rounded corners */
-    cursor: pointer;         /* Pointer cursor on hover */
-  }
 
-  /* Add a hover effect */
-  .custom-button:hover {
-    background-color: #45a049; /* Darker green on hover */
-  }
-
-  
-  .custom-button {
-  background-color: #007BFF;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-.custom-button:hover {
-  background-color: #0056b3;
-  transform: scale(1.05);
-}
 
