@@ -24,6 +24,33 @@
 
 
 
+<style>
+  .custom-button {
+    background-color: #f54646; /* Green background */
+    color: white;            /* White text */
+    border: none;            /* No border */
+    padding: 10px 20px;      /* Padding for size */
+    text-align: center;      /* Center text */
+    text-decoration: none;   /* No underline */
+    display: inline-block;   /* Inline element */
+    font-size: 16px;         /* Font size */
+    border-radius: 5px;      /* Rounded corners */
+    cursor: pointer;         /* Pointer cursor on hover */
+  }
+</style>
+
+
+  <style>
+  .custom-button:hover {
+    background-color: #f54000; /* Darker green on hover */
+  }
+
+
+</style>
+
+
+
+
 <!---Navigation Bar -->
 
 
@@ -53,10 +80,16 @@
 <br> <br>
 <center>
     <h1> Apologies, Under Development </h1> <br>
-        <h1> Please Go Back</h1>
+
+         <span class="custom-button"> 
+       <a href="javascript:history.back()">
+          <h1> Please Go Back  </h1> 
+        </a> 
+         </span>
+
 </center>
 
-
+   <a href="index.html"> 
 
 <a href="index.html"> <img src="LOAD.gif" alt="Not Ready Yet"  height="40%" width="40%"> <a> 
 
